@@ -2,7 +2,7 @@ import os
 import img2pdf
 
 # Diretório da pasta contendo as imagens
-diretorio = "C:\\Users\\pedro\\Desktop\\Work\\Edt Magnificat\\OCR\\O Senhor Menino Deus MMJJ"
+diretorio = "C:\\path\\to\\pdf.pdf"
 
 # Lista os arquivos na pasta
 arquivos = os.listdir(diretorio)
@@ -22,7 +22,7 @@ for arquivo in arquivos:
         caminhos_imagens.append(caminho_imagem)
 
 # Caminho do arquivo PDF de saída
-caminho_pdf = "C:\\Users\\pedro\\Desktop\\Work\\Edt Magnificat\\OCR\\O Senhor Menino Deus MMJJ.pdf"
+caminho_pdf = "C:\\path\\to\\pdf.pdf"
 
 # Converte as imagens para PDF
 with open(caminho_pdf, "wb") as pdf_output:
