@@ -7,7 +7,8 @@ convert a folder of images into a pdf file
 > all using python
 
 
-you will need:
+bib you will need:
+
 
 ```
 from pytesseract import pytesseract as pytess
